@@ -1,0 +1,146 @@
+body{
+  background: rgb(32,151,207);
+background: linear-gradient(90deg, rgba(32,151,207,1) 0%, rgba(32,189,239,1) 57%, rgba(113,214,246,1) 100%);
+}
+.container{
+  font-size:30px;
+  background-color: #ffffff;
+  width: 40%;
+  height: 100%;
+  padding: 50px;
+  border-radius: 5px;
+  font-family: 'Prompt', sans-serif;
+  box-shadow: 2px 2px 6px 6px rgba(75, 75, 75, 0.2);
+
+}
+.header{
+  font-size:30px;
+  background-color: #ffffff;
+
+  
+  border-radius: 5px;
+  font-family: 'Prompt', sans-serif;
+}
+
+.todo-input {
+  margin: 0;
+  border: none;
+  border-radius: 5;
+  width:50%;
+  padding: 10px;
+  float: center;
+  font-size: 16px;
+  transition: 0.3s;
+  display:inline;
+  
+  
+  }
+  
+.add-todo {
+  padding: 4px;
+  border: none;
+  width: 15%;
+  background-color: #0086d3;
+  color: rgb(255, 255, 255);
+  float: center;
+  text-align: center;
+  font-size:18px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: 'Prompt', sans-serif;
+  display: inline; 
+  border-radius: 2;
+  
+}
+.add-todo:hover {
+  padding: 4px;
+  border: none;
+  width: 15%;
+  background-color: #7aceff;
+  color: rgb(255, 255, 255);
+  float: center;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: 'Prompt', sans-serif;
+  /* display: block; */
+  /* border-radius: 0; */
+  
+}
+.todo {
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 5px; 
+  height: 20%;
+  position: relative;
+  /* padding: 10px; */
+  float: center;
+ 
+  width: 70%;
+}
+.check-todo {
+  font-size: 16px;
+  position: absolute;
+  right:50px;
+ 
+  top: 6px;
+  background-color: #0b6421;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border: none;
+  width: 10%;
+ 
+  padding: 4px;
+}
+.check-todo:hover {
+  font-size: 16px;
+  position: absolute;
+  right:50px;
+  top: 6px;
+  
+  background-color: #178f35;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border: none;
+  width: 10%;
+ 
+  padding: 4px;
+}
+
+.remove-todo {
+  font-size: 16px;
+  position: absolute;
+  right: 8px;
+  top: 6px;
+  background-color: #ce2d05;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border: none;
+  width: 10%;
+  /* height: 200%; */
+ 
+  padding: 4px;
+}
+
+.remove-todo:hover {
+  font-size: 16px;
+  position: absolute;
+  right: 8px;
+  top: 6px;
+  background-color: #f13608;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border: none;
+  width: 10%;
+ 
+  padding: 4px;
+}
+.fa-trash,.fa-check{
+  pointer-events: none;
+}
+.completed{
+  text-decoration: line-through;
+  opacity:0.5;
+
+}
